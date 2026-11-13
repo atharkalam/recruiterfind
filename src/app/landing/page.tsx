@@ -349,7 +349,7 @@ export default function LandingPage() {
               <Link href="/signup" style={{ display:'inline-flex', alignItems:'center', gap:8, background: ACCENT, color:'#fff', fontWeight:700, fontSize:16, padding:'16px 32px', borderRadius:12, textDecoration:'none', whiteSpace:'nowrap' }}>
                 Get started — it&apos;s free <ArrowRight style={{ width:18, height:18 }} />
               </Link>
-              <p style={{ fontSize:12, color:'rgba(255,255,255,0.3)', marginTop:10, margin:0, marginTop:12 }}>
+              <p style={{ fontSize:12, color:'rgba(255,255,255,0.3)', margin:0, marginTop:12 }}>
                 No credit card required
               </p>
             </div>
