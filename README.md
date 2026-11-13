@@ -19,6 +19,9 @@ RecruiterFind solves all three — scraping verified recruiter profiles from Goo
 
 ---
 
+<img width="898" height="693" alt="image" src="https://github.com/user-attachments/assets/383e33fb-c5ac-4169-8e7e-0d0221566abd" />
+
+
 ## Features
 
 - **Verified recruiter profiles** — strict title filtering (`isRecruiterTitle()`) ensures only genuine recruiting professionals appear; no engineers, no false positives
