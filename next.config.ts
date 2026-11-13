@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
@@ -11,6 +8,13 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  // Allow images from LinkedIn CDN
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: '**.licdn.com' },
+      { protocol: 'https', hostname: 'media.licdn.com' },
+    ],
   },
 };
 
